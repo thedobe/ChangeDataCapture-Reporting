@@ -6,6 +6,7 @@ change data capture being a PITA to implement? One sproc to rule them all.
 Will populate a 'reporting' table 
 
 params: 
+
   @destDB NVARCHAR(255), -- Database used for 'housing' all of the server's CDC objects 
   
   @destTable NVARCHAR(255), -- Table used within destination database
