@@ -1,4 +1,4 @@
-# ChangeDataCapture-Reporting
+# ChangeDataCapture (CDC) with Reporting
 
 change data capture being a PITA to implement? One sproc to rule them all.
 
