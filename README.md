@@ -7,13 +7,13 @@ Will populate a 'reporting' table
 
 params: 
 
-  @destDB NVARCHAR(255), -- Database used for 'housing' all of the server's CDC objects 
+  @destDB NVARCHAR(255) -- Database used for 'housing' all of the server's CDC objects 
   
-  @destTable NVARCHAR(255), -- Table used within destination database
+  @destTable NVARCHAR(255) -- Table used within destination database
   
-  @tableName NVARCHAR(255),  -- local CDC'd table name
+  @tableName NVARCHAR(255)  -- local CDC'd table name
   
-  @tablePK NVARCHAR(255), -- PK(s) of the CDC'd table e.g., 'myPK' or 'myPK, anotherPK, oneMorePK'
+  @tablePK NVARCHAR(255) -- PK(s) of the CDC'd table e.g., 'myPK' or 'myPK, anotherPK, oneMorePK'
   
   @to_date DATETIME = NULL
 
